@@ -14,7 +14,6 @@ const Hero = () => {
           the tech industry and life style.
         </p>
       </section>
-      <FeaturedPosts />
     </>
   );
 };
