@@ -4,7 +4,7 @@ import MainNavigation from "./main-navigation";
 const Layout = ({ children }) => {
   return (
     <>
-      <div className="md:container mx-auto min-h-screen flex flex-col bg-slate-300">
+      <div className="md:container mx-auto min-h-screen flex flex-col">
         <MainNavigation />
         <main className="flex-grow">{children}</main>
         <footer className="py-6 text-center text-gray-500 text-sm">

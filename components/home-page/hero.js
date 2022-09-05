@@ -11,7 +11,7 @@ const Hero = () => {
           Hi I&apos;m <span className="dark:text-purple-600">Irfan</span>
         </h1>
         <h3 className="text-4xl my-3">Frontend Developer</h3>
-        <p className="text-gray-700 mb-8">
+        <p className="dark:text-gray-300 mb-8">
           I work with the JavaScript ecosystem. Welcome to my small piece of the
           internet, where I write and share about different topics related to
           the tech industry and life style.

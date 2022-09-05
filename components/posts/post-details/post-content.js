@@ -17,6 +17,7 @@ const PostContent = ({ post }) => {
     <article>
       <PostHeader title={post.title} image={post.image} />
       {/* place for jsx code */}
+      <ReactMarkdown>{"# Hello, *world*!"}</ReactMarkdown>
       <ReactMarkdown>{post.content}</ReactMarkdown>
     </article>
   );
