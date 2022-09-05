@@ -24,7 +24,7 @@ import PostsGrid from "../posts/posts-grid";
 
 const FeaturedPosts = ({ posts }) => {
   return (
-    <section>
+    <section className="py-8">
       <h2>FeaturedPosts</h2>
       <PostsGrid posts={posts} />
     </section>

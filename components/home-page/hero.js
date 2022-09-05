@@ -16,7 +16,7 @@ const Hero = () => {
           internet, where I write and share about different topics related to
           the tech industry and life style.
         </p>
-        <Button className="bg-purple-600 text-white px-6">Learn More!</Button>
+        <Button className="bg-purple-600 text-white px-6">About me!</Button>
       </section>
     </>
   );
