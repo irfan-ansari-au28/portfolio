@@ -4,9 +4,15 @@ import MainNavigation from "./main-navigation";
 const Layout = ({ children }) => {
   return (
     <>
-      <div style={{ marginLeft: "auto", marginRight: "auto", padding: "60px" }}>
+      <div className="md:container mx-auto min-h-screen flex flex-col">
         <MainNavigation />
-        <main style={{ maxWidth: "1200px" }}>{children}</main>
+        <main className="flex-grow">{children}</main>
+        <footer className="py-6 text-center text-gray-500 text-sm">
+          <span className="dark:text-gray-100 text-gray-900 font-bold text-lg mr-2">
+            phoreka
+          </span>
+          &copy; {new Date().getFullYear()} All Rights Reversed
+        </footer>
       </div>
     </>
   );

@@ -3,12 +3,12 @@ import React from "react";
 
 const PostItem = ({ post }) => {
   /// It should be clickable by slug
-  const slug = post.type;
+  const slug = post.slug;
   const linkPath = `/posts/${slug}`;
   return (
     <>
       <Link href={linkPath}>
-        <a style={{ backgroundColor: `${post.color}` }}>{post.color}</a>
+        <a style={{ backgroundColor: `${post.color}` }}>{post.title}</a>
       </Link>
     </>
   );

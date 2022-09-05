@@ -1,11 +1,21 @@
+import { ThemeProvider } from "next-themes";
+import Head from "next/head";
 import Layout from "../components/layout/layout";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <ThemeProvider attribute="class">
+      <Layout>
+        <Head>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
+        <Component {...pageProps} />
+      </Layout>
+    </ThemeProvider>
   );
 }
 
