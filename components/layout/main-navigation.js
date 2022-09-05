@@ -21,7 +21,9 @@ const MainNavigation = () => {
           {navigation.map((nav) => {
             return (
               <Link key={nav.label} href={nav.path}>
-                <a>{nav.label}</a>
+                <a className="font-semibold text-gray-400 hover:text-gray-500">
+                  {nav.label}
+                </a>
               </Link>
             );
           })}
