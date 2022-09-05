@@ -5,16 +5,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./sections/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
+  // container: {
+  //   padding: {
+  //     DEFAULT: "1rem",
+  //     sm: "1.25rem",
+  //     lg: "4rem",
+  //     xl: "5rem",
+  //     "2xl": "6rem",
+  //   },
+  // },
   theme: {
-    container: {
-      padding: {
-        DEFAULT: "1rem",
-        sm: "1.25rem",
-        lg: "4rem",
-        xl: "5rem",
-        "2xl": "6rem",
-      },
-    },
     extend: {},
   },
   plugins: [],
