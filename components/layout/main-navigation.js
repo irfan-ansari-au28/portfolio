@@ -6,7 +6,12 @@ import Button from "../home-page/ui/button";
 import Logo from "./logo";
 
 const MainNavigation = () => {
+  const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const navigation = [
     { label: "About", path: "/" },
@@ -14,12 +19,8 @@ const MainNavigation = () => {
     { label: "Posts", path: "/posts" },
     { label: "Contact", path: "/contact" },
   ];
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   const renderThemeChanger = () => {
-    const { systemTheme, theme, setTheme } = useTheme();
     if (!mounted) return null;
 
     const currentTheme = theme === "system" ? systemTheme : theme;
