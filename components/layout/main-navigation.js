@@ -4,14 +4,7 @@ import Logo from "./logo";
 
 const MainNavigation = () => {
   return (
-    <header
-      style={{
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        justifyContent: "flex-start",
-      }}
-    >
+    <header className="flex flex-row bg-blue-300 ">
       <Link href="/">
         <a>
           <Logo />

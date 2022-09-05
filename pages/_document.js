@@ -8,6 +8,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          {/* Use React Portal */}
           <div id="notifications"></div>
         </body>
       </Html>

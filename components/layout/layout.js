@@ -4,9 +4,10 @@ import MainNavigation from "./main-navigation";
 const Layout = ({ children }) => {
   return (
     <>
-      <div style={{ marginLeft: "auto", marginRight: "auto", padding: "60px" }}>
+      <div className="md:container mx-auto min-h-screen flex flex-col bg-slate-300">
         <MainNavigation />
-        <main style={{ maxWidth: "1200px" }}>{children}</main>
+        <main className="flex-grow">{children}</main>
+        <div className="bg-green-500">Footer</div>
       </div>
     </>
   );
