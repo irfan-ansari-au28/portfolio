@@ -1,6 +1,7 @@
 import React from "react";
 import FeaturedPosts from "./featured-post";
 import classes from "./hero.module.css";
+import Button from "./ui/button";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
           internet, where I write and share about different topics related to
           the tech industry and life style.
         </p>
-        <button className="bg-purple-600 text-white px-6">Learn More!</button>
+        <Button className="bg-purple-600 text-white px-6">Learn More!</Button>
       </section>
     </>
   );

@@ -7,7 +7,7 @@ const MainNavigation = () => {
     { label: "About", path: "/" },
     { label: "Portfolio", path: "/" },
     { label: "Posts", path: "/posts" },
-    { label: "contact", path: "/contact" },
+    { label: "Contact", path: "/contact" },
   ];
   return (
     <header className="h-16 flex items-center justify-between  bg-blue-300 ">
