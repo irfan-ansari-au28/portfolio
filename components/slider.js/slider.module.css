@@ -1,0 +1,50 @@
+.sliderContainer {
+  width: 500px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.sliderContentWrapper {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sliderContentWrapper.fast {
+  -webkit-animation: scroll 80s linear infinite;
+  animation: scroll 80s linear infinite;
+}
+
+.sliderContentWrapper.slow {
+  -webkit-animation: scroll 60s linear infinite;
+  animation: scroll 60s linear infinite;
+}
+
+.sliderContentWrapper > div {
+  display: inline-block;
+}
+
+@-webkit-keyframes scroll {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    -ms-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+@keyframes scroll {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    -ms-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+}
