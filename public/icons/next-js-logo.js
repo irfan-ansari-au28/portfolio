@@ -5,8 +5,8 @@ const NextJSLogo = () => {
     <div>
       <svg
         fill="none"
-        width="96px"
-        height="96px"
+        width="4rem"
+        height="4rem"
         viewBox="0 0 394 80"
         xmlns="http://www.w3.org/2000/svg"
       >
