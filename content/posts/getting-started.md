@@ -1,5 +1,5 @@
 ---
-title: "Hello World"
+title: "Hello there !!"
 number: 1
 color: "red"
 publishedAt: "2021-02-28"
@@ -10,15 +10,22 @@ isFeatured: true
 
 ## Welcome!!
 
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+
+[x] nope
+
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
-Hi everyone and welcome to my small piece of the internet, this is my first blog post. My name is Sergio, I'm a civil engineer who is trying to find his way through programming.
+Hi everyone and welcome to my small piece of the internet, this is my first blog post. My name is Irfan, I'm a chemical engineer who is trying to find his way through programming.
 
 For the past few months, I've been learning how to write code. After weeks and weeks of practice, frustrations, hard work, and moments of real excitement, I have decided to finally start building my own projects, starting with the blog you are reading right now.
 
 I'm so glad you have found my site. I will be posting some tips and advice on things that I wish I knew when I first started. That way, if you are new to the fascinating world of programming or maybe are thinking about start learning, my experiences can help you in your own journey to become a programmer.
 
-If you want to know a bit more about who am I, you can check the about page or click [here](https://sergiobarria.com/about).
+If you want to know a bit more about who am I, you can check the about page or click [here](https://phoreka.com/about).
 
 ## Who is this blog for?
 
