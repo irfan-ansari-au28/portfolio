@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import CurrentGoals from "../components/current-goals/CurrentGoals";
 import FeaturedPosts from "../components/home-page/featured-post";
 import Hero from "../components/home-page/hero";
 import Skills from "../components/skill/Skills";
@@ -15,6 +16,11 @@ const HomePage = ({ posts }) => {
       <Hero />
       <Skills />
       <FeaturedPosts posts={posts} />
+      {/* Current Goals */}
+      <section>
+        <h2 className="text-xl font-semibold">What I'm up to right now</h2>
+        <CurrentGoals />
+      </section>
     </>
   );
 };

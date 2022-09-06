@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import MainNavigation from "./main-navigation";
 
 const Layout = ({ children }) => {
@@ -10,12 +11,13 @@ const Layout = ({ children }) => {
       >
         <MainNavigation />
         <main className="flex-grow">{children}</main>
-        <footer className="py-6 text-center text-gray-500 text-sm">
+        {/* <footer className="py-6 text-center text-gray-500 text-sm">
           <span className="dark:text-gray-100 text-gray-900 font-bold text-lg mr-2">
             phoreka
           </span>
           &copy; {new Date().getFullYear()} All Rights Reversed
-        </footer>
+        </footer> */}
+        <Footer />
       </div>
     </>
   );
