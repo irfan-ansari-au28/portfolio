@@ -10,16 +10,35 @@ isFeatured: true
 
 ## Welcome!!
 
+## File-based Routing
+
+![Create routes via your file + folder structure](getting-started-nextjs.png)
+
 1. First item
 2. Second item
 3. Third item
 4. Fourth item
 
+> Single line quote
+>
+> > Nested quote
+> > multiple line
+> > quote
+
 [x] nope
+
+- [ ] A
+- [ ] B
+- [ ] C
+- [x] A
+- [x] B
+- [x] C
 
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
 Hi everyone and welcome to my small piece of the internet, this is my first blog post. My name is Irfan, I'm a chemical engineer who is trying to find his way through programming.
+
+&nbsp;
 
 For the past few months, I've been learning how to write code. After weeks and weeks of practice, frustrations, hard work, and moments of real excitement, I have decided to finally start building my own projects, starting with the blog you are reading right now.
 

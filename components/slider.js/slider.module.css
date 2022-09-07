@@ -13,11 +13,13 @@
 .sliderContentWrapper.fast {
   -webkit-animation: scroll 80s linear infinite;
   animation: scroll 80s linear infinite;
+  animation-direction: alternate;
 }
 
 .sliderContentWrapper.slow {
   -webkit-animation: scroll 60s linear infinite;
   animation: scroll 60s linear infinite;
+  animation-direction: alternate;
 }
 
 .sliderContentWrapper > div {

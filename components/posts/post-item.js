@@ -10,7 +10,7 @@ const PostItem = ({ post }) => {
       {[1, 2, 3].map((item) => (
         <Link href={linkPath} key={item}>
           <a
-            className="my-4 border-gray-200 border-solid border p-6 rounded-md flex flex-col transition-shadow hover:shadow-xl hover:transition-shadow"
+            className="my-4 border-gray-200 dark:border-violet-700 border-solid border p-6 rounded-md flex flex-col transition-shadow hover:shadow-xl hover:transition-shadow"
             // style={{ backgroundColor: `${post.color}` }}
           >
             <div className="text-lg font-semibold">{post.title}</div>
