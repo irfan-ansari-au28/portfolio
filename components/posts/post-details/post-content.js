@@ -14,8 +14,6 @@ import Image from "next/image";
 
 const PostContent = ({ post }) => {
   const imagePath = `/images/posts/${post.slug}/${post.image}`;
-  const img =
-    "images/posts/getting-started-with-nextjs/getting-started-nextjs.png";
 
   const customRenderers = {
     // image(image) {
@@ -61,10 +59,21 @@ const PostContent = ({ post }) => {
     // },
   };
   return (
-    <article>
-      <PostHeader title={post.title} image={post.image} />
-
-      <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
+    <article className="max-w-3xl mx-auto  mb-8">
+      <PostHeader
+        title={post.title}
+        slug={post.slug}
+        image={post.image}
+        summary={post.summary}
+      />
+      <div
+        className=" flex flex-col justify-center
+       items-start "
+      >
+        <ReactMarkdown components={customRenderers}>
+          {post.content}
+        </ReactMarkdown>
+      </div>
     </article>
   );
 };
