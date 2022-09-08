@@ -78,7 +78,7 @@ A table:
 
 &nbsp;
 
-<!-- ![phoreka](getting-started-nextjs.png) -->
+![phoreka](getting-started-nextjs.png)
 
 Hi everyone and welcome to my small piece of the internet, this is my first blog post. My name is Irfan, I'm a chemical engineer who is trying to find his way through programming.
 

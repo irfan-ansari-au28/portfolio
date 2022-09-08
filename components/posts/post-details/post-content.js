@@ -4,6 +4,7 @@ import PostHeader from "./post-header";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { FaCopy } from "react-icons";
 
 import { githubGist } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import { github } from "react-syntax-highlighter/dist/cjs/styles/prism";
@@ -43,8 +44,8 @@ const PostContent = ({ post }) => {
             <Image
               src={`/images/posts/${post.slug}/${image.properties.src}`}
               alt={image.alt}
-              width={600}
-              height={300}
+              width={400}
+              height={200}
             />
           </div>
         );
@@ -54,7 +55,6 @@ const PostContent = ({ post }) => {
     },
 
     code(code) {
-      // console.log(code, "code");
       const value = code.children[0];
       const language = code.className.split("-")[1];
       // console.log(language, "language");
@@ -65,6 +65,12 @@ const PostContent = ({ post }) => {
           style={github}
           showLineNumbers={true}
           wrapLongLines={true}
+          useInlineStyles={true}
+          customStyle={{
+            backgroundColor: "white",
+            fontSize: ".75rem",
+            lineHeight: "1.2rem",
+          }}
         >
           {value}
         </SyntaxHighlighter>
