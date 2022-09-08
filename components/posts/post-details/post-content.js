@@ -2,6 +2,7 @@ import React from "react";
 import { getFeaturedPosts } from "../../../lib/posts-util";
 import PostHeader from "./post-header";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import Image from "next/image";
 
 // const DUMMY_POST = {
@@ -70,7 +71,7 @@ const PostContent = ({ post }) => {
         className=" flex flex-col justify-center
        items-start "
       >
-        <ReactMarkdown components={customRenderers}>
+        <ReactMarkdown components={customRenderers} remarkPlugins={[remarkGfm]}>
           {post.content}
         </ReactMarkdown>
       </div>
