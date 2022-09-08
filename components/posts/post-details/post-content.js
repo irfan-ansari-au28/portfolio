@@ -3,6 +3,11 @@ import { getFeaturedPosts } from "../../../lib/posts-util";
 import PostHeader from "./post-header";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+
+import { githubGist } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import { github } from "react-syntax-highlighter/dist/cjs/styles/prism";
+
 import Image from "next/image";
 
 // const DUMMY_POST = {
@@ -48,16 +53,23 @@ const PostContent = ({ post }) => {
       return <p>{paragraph.children}</p>;
     },
 
-    // code(code) {
-    //   const { language, value } = code;
-    //   return (
-    //     <SyntaxHighlighter
-    //       style={atomDark}
-    //       language={language}
-    //       children={value}
-    //     />
-    //   );
-    // },
+    code(code) {
+      // console.log(code, "code");
+      const value = code.children[0];
+      const language = code.className.split("-")[1];
+      // console.log(language, "language");
+      // const { language, value } = code;
+      return (
+        <SyntaxHighlighter
+          language={language}
+          style={github}
+          showLineNumbers={true}
+          wrapLongLines={true}
+        >
+          {value}
+        </SyntaxHighlighter>
+      );
+    },
   };
   return (
     <article className="max-w-3xl mx-auto  mb-8">
