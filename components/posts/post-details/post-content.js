@@ -4,35 +4,15 @@ import PostHeader from "./post-header";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { FaCopy } from "react-icons";
 
-import { githubGist } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import { github } from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 import Image from "next/image";
-
-// const DUMMY_POST = {
-//   slug: "rio",
-//   title: "My Portfolio",
-//   image: "xyz",
-//   date: "2022-02-10",
-//   content: "# This is a first Post",
-// };
 
 const PostContent = ({ post }) => {
   const imagePath = `/images/posts/${post.slug}/${post.image}`;
 
   const customRenderers = {
-    // image(image) {
-    //   return (
-    //     <Image
-    //       src={`/images/posts/${post.slug}/${image.src}`}
-    //       alt={image.alt}
-    //       width={600}
-    //       height={300}
-    //     />
-    //   );
-    // },
     p(paragraph) {
       const { node } = paragraph;
 
