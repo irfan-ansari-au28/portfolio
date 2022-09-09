@@ -34,14 +34,14 @@ const ContactForm = () => {
     // </form>
     <section>
       <h1 className="my-8 text-center relative ">I'm glad you're here !</h1>
-      <div className=" my-4  bg-gradient-to-r from-violet-500 to-fuchsia-500  hover:bg-white  w-1/2 border-2 border-transparent rounded-lg">
+      <div className=" my-4  bg-gradient-to-r from-green-400 via-purple-500 to-blue-500 hover:from-pink-500 hover:via-purple-500 hover:to-yellow-500 w-1/2 border-2 border-transparent rounded-lg">
         <form
           onSubmit={sendMessageHandler}
           className="bg-white  dark:bg-black  rounded-lg  p-5  "
         >
           <div className="my-4">
             <label htmlFor="email" className="block">
-              <span className="block text-sm font-medium text-slate-700 my-2 dark:text-white">
+              <span className=" my-2 dark:text-white after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
                 Your Email
               </span>
               <input
@@ -57,7 +57,7 @@ const ContactForm = () => {
           </div>
           <div className="my-4">
             <label htmlFor="name" className="block">
-              <span className="block text-sm font-medium text-slate-700 my-2 dark:text-white">
+              <span className="block text-sm font-medium text-slate-700 my-2 dark:text-white after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
                 Your Name
               </span>
               <input
@@ -109,7 +109,7 @@ const ContactForm = () => {
           <div className="flex justify-end items-center">
             <button
               type="button"
-              className="  bg-transparent bg-violet-500 hover:bg-transparent font-semibold hover:text-slate-700 text-white py-2 px-4 border hover:border-violet-500 border-transparent rounded"
+              className="  bg-transparent  hover:bg-transparent font-semibold hover:text-slate-700 text-white py-2 px-4 border border-transparent rounded bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"
             >
               Submit
             </button>

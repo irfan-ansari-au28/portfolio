@@ -34,7 +34,9 @@ const AboutPage = () => {
           <p>
             If you want to{" "}
             <Link href="/contact">
-              <a className="text-primary hover:text-primary/70">contact me</a>
+              <a className="text-blue-700 hover:purple underline hover:underline-offset-4">
+                contact me
+              </a>
             </Link>
             , go ahead and send me a message through the contact form on the
             contact page. I'll be happy to receive your feedback.
