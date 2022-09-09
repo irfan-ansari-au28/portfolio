@@ -71,7 +71,7 @@ Hi everyone and welcome to my small piece of the internet, this is my first blog
 
 &nbsp;
 
-For the past few months, I've been learning how to write code. After weeks and weeks of practice, frustrations, hard work, and moments of real excitement, I have decided to finally start building my own projects, starting with the blog you are reading right now.
+For the past few years, I've been learning how to write code. After weeks and months of practice, frustrations, hard work, and moments of real excitement, I have decided to finally start building my own projects, starting with the blog you are reading right now.
 
 &nbsp;
 

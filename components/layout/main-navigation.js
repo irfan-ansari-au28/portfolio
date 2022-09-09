@@ -15,7 +15,7 @@ const MainNavigation = () => {
   }, []);
 
   const navigation = [
-    { label: "About", path: "/" },
+    { label: "About", path: "/about" },
     { label: "Portfolio", path: "/" },
     { label: "Posts", path: "/posts" },
     { label: "Contact", path: "/contact" },
@@ -84,7 +84,12 @@ const MainNavigation = () => {
       </nav>
 
       <div className="flex items-center justify-start">
-        <a href="files/resumeSample.pdf" download="Irfan's Resume.pdf">
+        <a
+          href="files/resumeSample.pdf"
+          // eslint-disable-next-line react/no-unknown-property
+          download="Irfan's Resume.pdf"
+          target={"_blank"}
+        >
           <div className="mr-4">
             <FaFileDownload title="Resume" size={"2rem"} color={"purple"} />
           </div>
