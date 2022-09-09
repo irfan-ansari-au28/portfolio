@@ -34,7 +34,9 @@ const ContactForm = () => {
     //   </label>
     // </form>
     <section>
-      <h1 className="my-8 text-center relative ">I'm glad you're here !</h1>
+      <h1 className="my-8 text-center relative ">
+        I&apos;m glad you&apos;re here !
+      </h1>
       <div className=" my-4  bg-gradient-to-r from-green-400 via-purple-500 to-blue-500 hover:from-pink-500 hover:via-purple-500 hover:to-yellow-500 w-1/2 border-2 border-transparent rounded-lg">
         <form
           onSubmit={sendMessageHandler}
@@ -58,7 +60,7 @@ const ContactForm = () => {
           </div>
           <div className="my-4">
             <label htmlFor="name" className="block">
-              <span className="block text-sm font-medium text-slate-700 my-2 dark:text-white after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+              <span className=" my-2 dark:text-white after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
                 Your Name
               </span>
               <input

@@ -8,13 +8,13 @@ const AboutPage = () => {
         <h1>About me</h1>
         <article className="prose mt-6 max-w-none">
           <p>
-            Hello! I'm Irfan. I'm a Chemical Engineer - Web & Mobile Developer
-            from India.
+            Hello! I&apos;m Irfan. I&apos;m a Chemical Engineer - Web & Mobile
+            Developer from India.
           </p>
           <p>
             I first had my first try at software development a few years back in
             college. Although I liked it, I kept focus on my career so I
-            couldn't keep practicing.
+            couldn&apos;t keep practicing.
           </p>
           <p>
             After college, I started looking for some new hobbies. By the end of
@@ -25,11 +25,11 @@ const AboutPage = () => {
           </p>
           <p>
             I created this website for two main reasons. The first one is to
-            showcase and share all the things I've learned during my journey,
-            and who knows?, maybe help others, that like me are learning. The
-            second reason is, I always like to learn new things. So, I wanted
-            this website to be the place where I can put in practice all the new
-            things I learn.
+            showcase and share all the things I&apos;ve learned during my
+            journey, and who knows?, maybe help others, that like me are
+            learning. The second reason is, I always like to learn new things.
+            So, I wanted this website to be the place where I can put in
+            practice all the new things I learn.
           </p>
           <p>
             If you want to{" "}
@@ -39,7 +39,7 @@ const AboutPage = () => {
               </a>
             </Link>
             , go ahead and send me a message through the contact form on the
-            contact page. I'll be happy to receive your feedback.
+            contact page. I&apos;ll be happy to receive your feedback.
           </p>
         </article>
       </section>
