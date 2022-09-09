@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import FeaturedPosts from "./featured-post";
 import classes from "./hero.module.css";
@@ -17,7 +18,9 @@ const Hero = () => {
           <br /> where I write and share about different topics related to the
           tech industry and life style.
         </p>
-        <Button className="bg-purple-600 text-white px-6">About me!</Button>
+        <Link href={"/about"}>
+          <Button className="bg-purple-600 text-white px-6">About me!</Button>
+        </Link>
       </section>
     </>
   );

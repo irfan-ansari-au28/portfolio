@@ -16,7 +16,7 @@ const MainNavigation = () => {
 
   const navigation = [
     { label: "About", path: "/about" },
-    { label: "Portfolio", path: "/" },
+    { label: "Portfolio", path: "/portfolio" },
     { label: "Posts", path: "/posts" },
     { label: "Contact", path: "/contact" },
   ];
