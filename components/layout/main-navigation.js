@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import Button from "../home-page/ui/button";
 import Logo from "./logo";
+import { FaFileDownload } from "react-icons/fa";
 
 const MainNavigation = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -81,7 +82,15 @@ const MainNavigation = () => {
           })}
         </ul>
       </nav>
-      {renderThemeChanger()}
+
+      <div className="flex items-center justify-start">
+        <a href="files/resumeSample.pdf" download="Irfan's Resume.pdf">
+          <div className="mr-4">
+            <FaFileDownload title="Resume" size={"2rem"} color={"purple"} />
+          </div>
+        </a>
+        {renderThemeChanger()}
+      </div>
     </header>
   );
 };
