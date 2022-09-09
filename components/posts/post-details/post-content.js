@@ -49,7 +49,7 @@ const PostContent = ({ post }) => {
           customStyle={{
             backgroundColor: "white",
             fontSize: ".75rem",
-            lineHeight: "1.2rem",
+            lineHeight: "2rem",
           }}
         >
           {value}

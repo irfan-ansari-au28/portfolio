@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "../home-page/ui/button";
 
 const ContactForm = () => {
   const [enteredEmail, setEnteredEmail] = useState("");
@@ -24,10 +25,10 @@ const ContactForm = () => {
   }
   return (
     //     <form>
-    //   <label class="block">
-    //     <span class="block text-sm font-medium text-slate-700">Social Security Number</span>
-    //     <input class="border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500"/>
-    //     <p class="mt-2 opacity-10 contrast-more:opacity-100 text-slate-600 text-sm">
+    //   <label className="block">
+    //     <span className="block text-sm font-medium text-slate-700">Social Security Number</span>
+    //     <input className="border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500"/>
+    //     <p className="mt-2 opacity-10 contrast-more:opacity-100 text-slate-600 text-sm">
     //       We need this to steal your identity.
     //     </p>
     //   </label>
@@ -107,12 +108,7 @@ const ContactForm = () => {
           />
         </div> */}
           <div className="flex justify-end items-center">
-            <button
-              type="button"
-              className="  bg-transparent  hover:bg-transparent font-semibold hover:text-slate-700 text-white py-2 px-4 border border-transparent rounded bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"
-            >
-              Submit
-            </button>
+            <Button className="bg-purple-600 text-white px-6">Submit</Button>
           </div>
         </form>
       </div>

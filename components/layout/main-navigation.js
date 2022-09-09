@@ -91,7 +91,7 @@ const MainNavigation = () => {
           target={"_blank"}
         >
           <div className="mr-4">
-            <FaFileDownload title="Resume" size={"2rem"} color={"purple"} />
+            <FaFileDownload title="Resume" size={"2rem"} />
           </div>
         </a>
         {renderThemeChanger()}
