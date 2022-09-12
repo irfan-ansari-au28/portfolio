@@ -1,14 +1,11 @@
-import Link from "next/link";
 import React from "react";
 import { FiCode } from "react-icons/fi";
+import ExternalLink from "../link/external-link";
 
 const PortfolioCard = () => {
   return (
     <>
-      <Link
-        target={"_blank"}
-        href={"https://github.com/irfan-ansari-au28/tshirt-bazar"}
-      >
+      <ExternalLink href={"https://github.com/irfan-ansari-au28/tshirt-bazar"}>
         <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8">
           <div className="max-w-7xl mx-auto">
             <div className="relative group">
@@ -22,7 +19,7 @@ const PortfolioCard = () => {
             </div>
           </div>
         </div>
-      </Link>
+      </ExternalLink>
     </>
   );
 };

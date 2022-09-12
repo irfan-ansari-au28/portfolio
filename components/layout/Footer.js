@@ -1,4 +1,4 @@
-import Link from "next/link";
+import ExternalLink from "next/link";
 import React from "react";
 import SocialIcons from "../SocialIcons";
 
@@ -17,9 +17,13 @@ const Footer = () => {
         </p>
       </div>
       <p className="text-sm text-gray-500">
-        Built with <Link href="https://nextjs.org/">Next.js</Link>,{" "}
-        <Link href="https://tailwindcss.com/">Tailwind CSS</Link>. Content with{" "}
-        <Link href="https://mdxjs.com/">MDX</Link>
+        Built with{" "}
+        <ExternalLink href="https://nextjs.org/">Next.js</ExternalLink>,{" "}
+        <ExternalLink href="https://tailwindcss.com/">
+          Tailwind CSS
+        </ExternalLink>
+        . Content with{" "}
+        <ExternalLink href="https://mdxjs.com/">MDX</ExternalLink>
       </p>
     </div>
   );
