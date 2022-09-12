@@ -65,12 +65,15 @@ const MainNavigation = () => {
   return (
     <header className="h-16 flex items-center justify-between  ">
       <nav>
-        <ul className="flex gap-4">
-          <Link href="/">
-            <a className="mr-4">
+        <ul className="flex items-center justify-center gap-4">
+          <div className="text-xl font-semi-bold text-purple-700 dark:text-white">
+            <Link href="/">
+              {/* <a className="mr-4">
               <Logo />
-            </a>
-          </Link>
+            </a> */}
+              phoreka.
+            </Link>
+          </div>
           {navigation.map((nav) => {
             return (
               <Link key={nav.label} href={nav.path}>
