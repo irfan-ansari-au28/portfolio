@@ -10,7 +10,8 @@ const HomePage = ({ posts }) => {
   return (
     <>
       <Head>
-        <title>phoreka's Portfolio</title>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
+        <title>phoreka&apos;s Portfolio</title>
         <meta name="description" content="My personal website" />
       </Head>
       <Hero />
@@ -18,7 +19,7 @@ const HomePage = ({ posts }) => {
       <FeaturedPosts posts={posts} />
       {/* Current Goals */}
       <section>
-        <h2 className="text-xl font-semibold">What I'm up to right now</h2>
+        <h2 className="text-xl font-semibold">What I&apos;m up to right now</h2>
         <CurrentGoals />
       </section>
     </>
