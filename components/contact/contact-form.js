@@ -37,7 +37,7 @@ const ContactForm = () => {
       <h1 className="my-8 text-center relative ">
         I&apos;m glad you&apos;re here !
       </h1>
-      <div className=" my-4  bg-gradient-to-r from-green-400 via-purple-500 to-blue-500 hover:from-pink-500 hover:via-purple-500 hover:to-yellow-500 w-1/2 border-2 border-transparent rounded-lg">
+      <div className=" my-4  bg-gradient-to-r from-green-400 via-purple-500 to-blue-500 hover:from-pink-500 hover:via-purple-500 hover:to-yellow-500 sm:w-1/2 border-2 border-transparent rounded-lg">
         <form
           onSubmit={sendMessageHandler}
           className="bg-white  dark:bg-black  rounded-lg  p-5  "
