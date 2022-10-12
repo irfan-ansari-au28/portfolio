@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
       <section className="mt-16">
-        <h1 className="text-7xl font-bold">
+        <h1 className="text-5xl sm:text-7xl font-bold">
           Hi, I&apos;m <span className="dark:text-purple-600">Irfan</span>
         </h1>
         <h3 className="text-4xl my-3">Frontend Developer</h3>
