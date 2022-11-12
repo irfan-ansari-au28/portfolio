@@ -18,7 +18,20 @@
   p {
     @apply text-slate-700 dark:text-slate-200 text-base py-1;
   }
+  pre {
+    @apply max-w-full;
+  }
   /* a {
     @apply text-blue-600 underline;
   } */
+}
+
+pre {
+  height: auto;
+  max-height: 400px;
+  overflow: auto;
+  background-color: #eeeeee;
+  word-break: normal !important;
+  word-wrap: normal !important;
+  white-space: pre !important;
 }
