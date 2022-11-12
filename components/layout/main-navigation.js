@@ -74,15 +74,17 @@ const MainNavigation = () => {
               phoreka.
             </Link>
           </div>
-          {navigation.map((nav) => {
-            return (
-              <Link key={nav.label} href={nav.path}>
-                <a className="font-semibold text-gray-400 hover:text-gray-500">
-                  {nav.label}
-                </a>
-              </Link>
-            );
-          })}
+          <div className="hidden sm:block">
+            {navigation.map((nav) => {
+              return (
+                <Link key={nav.label} href={nav.path}>
+                  <a className="font-semibold text-gray-400 hover:text-gray-500 pl-3 ">
+                    {nav.label}
+                  </a>
+                </Link>
+              );
+            })}
+          </div>
         </ul>
       </nav>
 

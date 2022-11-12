@@ -11,7 +11,7 @@ const HomePage = ({ posts }) => {
     <>
       <Head>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        <title>phoreka&apos;s Portfolio</title>
+        <title>phoreka</title>
         <meta name="description" content="My personal website" />
       </Head>
       <Hero />
