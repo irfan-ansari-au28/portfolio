@@ -90,7 +90,7 @@ const MainNavigation = () => {
 
       <div className="flex items-center justify-start">
         <a
-          href="files/Irfan_oct.pdf"
+          href="files/Irfan_Resume_Jan.pdf"
           // eslint-disable-next-line react/no-unknown-property
           download="Irfan's Resume.pdf"
           target={"_blank"}

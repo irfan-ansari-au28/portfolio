@@ -18,12 +18,13 @@ const Slider = () => {
     <div>
       <div className={classes.sliderContainer}>
         <div className={`${classes.sliderContentWrapper} ${classes.fast}`}>
-          <div className={` mx-4 cursor-pointer opacity-30 hover:opacity-100`}>
+          <div className={` mx-4 cursor-pointer opacity-30  hover:opacity-100`}>
             <FaHtml5
               size="4rem"
               // color={`${true ? "rgb(0,0,0,.8)" : "rgb(0,0,0,.2)"}`}
             />
           </div>
+
           <div className={` mx-4 cursor-pointer opacity-30 hover:opacity-100`}>
             <FaCss3
               size="4rem"

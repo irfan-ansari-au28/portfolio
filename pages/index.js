@@ -3,6 +3,7 @@ import React from "react";
 import CurrentGoals from "../components/current-goals/CurrentGoals";
 import FeaturedPosts from "../components/home-page/featured-post";
 import Hero from "../components/home-page/hero";
+import PortfolioList from "../components/home-page/PortfolioList";
 import Skills from "../components/skill/Skills";
 import { getFeaturedPosts } from "../lib/posts-util";
 
@@ -16,6 +17,7 @@ const HomePage = ({ posts }) => {
       </Head>
       <Hero />
       <Skills />
+      <PortfolioList />
       <FeaturedPosts posts={posts} />
       {/* Current Goals */}
       <section>

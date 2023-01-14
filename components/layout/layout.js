@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <>
       <div
         className="md:container mx-auto min-h-screen flex flex-col  px-4"
-        style={{ maxWidth: "1024px" }}
+        style={{ maxWidth: "1200px" }}
       >
         <MainNavigation />
         <main className="flex-grow">{children}</main>

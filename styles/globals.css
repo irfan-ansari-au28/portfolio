@@ -15,9 +15,9 @@
   h3 {
     @apply text-lg font-semibold;
   }
-  p {
+  /* p {
     @apply text-slate-700 dark:text-slate-200 text-base py-1;
-  }
+  } */
   pre {
     @apply max-w-full;
   }

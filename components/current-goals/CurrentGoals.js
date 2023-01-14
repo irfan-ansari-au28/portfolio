@@ -3,7 +3,7 @@ import { FiCheckCircle } from "react-icons/fi";
 const taskList = [
   "I'm working on projects using React for practice and to improve my development skills 🤓",
   "I'm working on full stack applications using the MERN Stack, with features like authentication and input validation 🤓",
-  "Ended 2021 learning mobile development with React Native. Next, will be working on some apps to maybe publish on the App and Play Stores. 😱 😁",
+  "Ended 2022 learning mobile development with React Native. Next, will be working on some apps to maybe publish on the App and Play Stores. 😱 😁",
 ];
 
 const CurrentGoals = () => {
