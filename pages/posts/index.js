@@ -3,7 +3,11 @@ import AllPosts from "../../components/posts/all-posts";
 import { getFeaturedPosts } from "../../lib/posts-util";
 
 const AllPostsPage = ({ posts }) => {
-  return <AllPosts posts={posts} />;
+  return (
+    <div className="mt-16">
+      <AllPosts posts={posts} />
+    </div>
+  );
 };
 
 export function getStaticProps() {

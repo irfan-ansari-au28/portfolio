@@ -15,7 +15,7 @@ import Slider from "../components/slider.js/Slider";
 const AboutPage = () => {
   return (
     <>
-      <section>
+      <section className="mt-16">
         <h1>About me</h1>
         <article className="prose mt-6 max-w-none">
           <p>

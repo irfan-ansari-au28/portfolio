@@ -1,11 +1,12 @@
 import React from "react";
-import PortfolioCard from "../components/portfolio-page/portfolio-card";
+
+import ImageList from "../components/portfolio-page/ImageList";
 
 const PortfolioPage = () => {
   return (
-    <>
-      <PortfolioCard />
-    </>
+    <div className="mt-16">
+      <ImageList />
+    </div>
   );
 };
 

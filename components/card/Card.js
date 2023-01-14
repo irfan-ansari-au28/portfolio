@@ -1,14 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import classes from "../slider.js/slider.module.css";
+
 import ExternalLink from "../link/external-link";
 import inventoryImg from "../../public/images/portfolio/inventory.png";
 import tshirtShopImg from "../../public/images/portfolio/tshirt shop.png";
 import interviewVectorImg from "../../public/images/portfolio/interview-vector.png";
-
-const imgUrl =
-  "https://images.unsplash.com/photo-1557310717-d6bea9f36682?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=400&w=634&q=80";
 
 const cardContent = [
   {
@@ -51,7 +48,7 @@ const Card = () => {
   const cards = [1, 2, 3];
   return (
     <>
-      <div className=" flex md:flex-nowrap flex-wrap justify-between items-center mt-6 ">
+      <div className=" flex flex flex-wrap flex-col justify-center items-center sm:flex-row sm:justify-between sm:items-center  mt-6 ">
         {cardContent.map((card) => {
           return (
             <div
