@@ -18,7 +18,7 @@ const Hero = () => {
             new Date().getFullYear() - 2020
           } years of experience in building dynamic
           and user-friendly web applications. I have a deep understanding of
-          modern technologies such as the MERN stack and Angular. I have a
+          modern technologies such as the MERN stack. I have a
           proven track record of delivering high-quality and responsive web
           solutions that meet and exceed client expectations. I work with the
           JavaScript ecosystem. Welcome to my small piece of the internet, where
